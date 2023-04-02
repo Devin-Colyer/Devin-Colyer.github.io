@@ -5,6 +5,7 @@ body {
 }
 
 .paragraph {
+    background-color: #c4c4c480;
     padding: 16px;
     text-align: center;
 }
@@ -12,9 +13,11 @@ body {
 /* Purple background for navigation bar */
 .navbar {
     background-color: #ffffff00;
+    overflow: hidden;
+
     position: -webkit-sticky; /* Safari */
     position: sticky;
-    overflow: hidden;
+    top: 0;
 }
 
 .navbar a {
