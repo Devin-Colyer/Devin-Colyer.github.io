@@ -12,6 +12,8 @@ body {
 /* Purple background for navigation bar */
 .navbar {
     background-color: #ffffff00;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
     overflow: hidden;
 }
 
