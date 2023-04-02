@@ -1,0 +1,24 @@
+/* Purple background for navigation bar */
+.navbar {
+    background-color: #562d80;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: center;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: medium;
+}
+
+.navbar a:hover {
+    background-color: #764e9e;
+    color: #f2f2f2;
+}
+
+.navbar a:active {
+    background-color: #f5f237;
+    color: #f2f2f2;
+}
