@@ -1,25 +1,33 @@
+/*Body style*/
+body {
+    background-color: #8d729e;
+    margin: 0%;
+}
+
+.paragraph {
+    padding-left: 16px;
+    text-align: center;
+}
+
 /* Purple background for navigation bar */
 .navbar {
-    background-color: #562d80;
+    background-color: #ffffff00;
     overflow: hidden;
 }
 
 .navbar a {
     float: center;
-    color: #f2f2f2;
+    color: #adadad80;
     text-align: center;
-    margin: 0%;
     padding: 14px 16px;
     text-decoration: none;
     font-size: medium;
 }
 
 .navbar a:hover {
-    background-color: #764e9e;
-    color: #f2f2f2;
+    color: #ffffff80;
 }
 
 .navbar a:active {
-    background-color: #f5f237;
-    color: #f2f2f2;
+    color: #ffdb15;
 }
